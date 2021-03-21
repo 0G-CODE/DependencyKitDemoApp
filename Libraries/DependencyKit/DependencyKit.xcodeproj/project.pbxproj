@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		23A1AA2F256824FE009E847C /* DependencyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A1AA2D256824FE009E847C /* DependencyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71B50DA2606CDBB00D8E094 /* DependencyKit in Frameworks */ = {isa = PBXBuildFile; productRef = F71B50D92606CDBB00D8E094 /* DependencyKit */; };
 		F71F075225B64D8900E633A0 /* DependencyKit in Frameworks */ = {isa = PBXBuildFile; productRef = F71F075125B64D8900E633A0 /* DependencyKit */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71B50DA2606CDBB00D8E094 /* DependencyKit in Frameworks */,
 				F71F075225B64D8900E633A0 /* DependencyKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +96,7 @@
 			name = DependencyKit;
 			packageProductDependencies = (
 				F71F075125B64D8900E633A0 /* DependencyKit */,
+				F71B50D92606CDBB00D8E094 /* DependencyKit */,
 			);
 			productName = DependencyKit;
 			productReference = 23A1AA2A256824FE009E847C /* DependencyKit.framework */;
@@ -122,6 +125,9 @@
 				Base,
 			);
 			mainGroup = 23A1AA20256824FE009E847C;
+			packageReferences = (
+				F71B50D82606CDBB00D8E094 /* XCRemoteSwiftPackageReference "DependencyKit" */,
+			);
 			productRefGroup = 23A1AA2B256824FE009E847C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -348,7 +354,23 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		F71B50D82606CDBB00D8E094 /* XCRemoteSwiftPackageReference "DependencyKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:0G-CODE/DependencyKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		F71B50D92606CDBB00D8E094 /* DependencyKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F71B50D82606CDBB00D8E094 /* XCRemoteSwiftPackageReference "DependencyKit" */;
+			productName = DependencyKit;
+		};
 		F71F075125B64D8900E633A0 /* DependencyKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DependencyKit;
