@@ -11,5 +11,5 @@ protocol ScopeThreeRequirements: Requirements, GENERATED_IMPLICIT_ScopeThreeRequ
 }
 
 
-class ScopeThreeResource<I: ScopeThreeRequirements>: Resource<I> {
+class ScopeThreeResource<I: ScopeThreeRequirements>: Resource<I, ()> {
 }

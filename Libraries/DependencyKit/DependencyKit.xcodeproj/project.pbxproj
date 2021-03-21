@@ -359,8 +359,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:0G-CODE/DependencyKit.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = revision;
+				revision = a8783a85c952d3ad9ccb70aeb5adc926c3999c0f;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

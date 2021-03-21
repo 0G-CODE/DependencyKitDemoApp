@@ -9,7 +9,7 @@ protocol ScopeTwoRequirements: Requirements, GENERATED_IMPLICIT_ScopeTwoRequirem
 }
 
 
-class ScopeTwoResource<I: ScopeTwoRequirements>: Resource<I>,
+class ScopeTwoResource<I: ScopeTwoRequirements>: Resource<I, ()>,
                                                  ScopeThreeRequirements{
     var duplicated: String { explicit }
 

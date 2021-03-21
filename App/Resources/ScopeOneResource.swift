@@ -7,7 +7,7 @@ protocol ScopeOneRequirements: Requirements, GENERATED_IMPLICIT_ScopeOneRequirem
     var modified: String { get }
 }
 
-class ScopeOneResource<I: ScopeOneRequirements>: Resource<I>,
+class ScopeOneResource<I: ScopeOneRequirements>: Resource<I, ()>,
                                                  NetworkClientRequirements,
                                                  ScopeTwoRequirements {
 

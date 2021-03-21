@@ -2,7 +2,7 @@ import DependencyKit
 import Foundation
 import NetworkClient
 
-class ScopeZeroResource<I: NilRequirements>: Resource<I>,
+class ScopeZeroResource<I: NilRequirements>: Resource<I, ()>,
                                              ScopeOneRequirements {
     let explicit = "s0-explicit"
     let implicit = "s0-implicit"
