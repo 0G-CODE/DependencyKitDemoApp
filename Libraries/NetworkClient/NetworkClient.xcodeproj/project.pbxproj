@@ -62,14 +62,6 @@
 			path = __generated__;
 			sourceTree = "<group>";
 		};
-		235FB58A2569CC74000B575A /* DI */ = {
-			isa = PBXGroup;
-			children = (
-				235FB5872569CBC9000B575A /* __generated__ */,
-			);
-			path = DI;
-			sourceTree = "<group>";
-		};
 		23A1A93A25665456009E847C = {
 			isa = PBXGroup;
 			children = (
@@ -90,7 +82,7 @@
 		23A1A94625665456009E847C /* NetworkClient */ = {
 			isa = PBXGroup;
 			children = (
-				235FB58A2569CC74000B575A /* DI */,
+				235FB5872569CBC9000B575A /* __generated__ */,
 				23A1A9E725677AD2009E847C /* NetworkClientResource.swift */,
 				23A1A96225665505009E847C /* NetworkClient.swift */,
 				23A1A9672566551F009E847C /* NetworkMonitorInterface.swift */,
