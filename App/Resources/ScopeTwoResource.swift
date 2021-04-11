@@ -13,6 +13,8 @@ class ScopeTwoResource<I: ScopeTwoRequirements>: Resource<I, ()>,
                                                  ScopeThreeRequirements{
     var duplicated: String { explicit }
 
+    var optional: String?
+
     func buildScopeThree() -> ScopeThreeResource<ScopeTwoResource> {
         ScopeThreeResource(injecting: self)
     }

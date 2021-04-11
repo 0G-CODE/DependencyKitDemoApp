@@ -8,6 +8,7 @@ protocol ScopeThreeRequirements: Requirements, GENERATED_IMPLICIT_ScopeThreeRequ
     var recreated: String { get }
     var createdLater: String { get }
     var duplicated: String { get }
+    var optional: String? { get }
 }
 
 
