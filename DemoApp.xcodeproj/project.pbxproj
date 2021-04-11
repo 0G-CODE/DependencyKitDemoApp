@@ -21,6 +21,7 @@
 		F7C1E67425F5C7FD00B7F419 /* ScopeTwoResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C1E67225F5C7FD00B7F419 /* ScopeTwoResource.swift */; };
 		F7C1E67525F5C7FD00B7F419 /* ScopeOneResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C1E67325F5C7FD00B7F419 /* ScopeOneResource.swift */; };
 		F7C1E67E25F6A2BA00B7F419 /* ScopeThreeResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C1E67D25F6A2BA00B7F419 /* ScopeThreeResource.swift */; };
+		F7C699CA2623025700D70684 /* Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C699C92623025700D70684 /* Generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		F7C1E67325F5C7FD00B7F419 /* ScopeOneResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScopeOneResource.swift; sourceTree = "<group>"; };
 		F7C1E67D25F6A2BA00B7F419 /* ScopeThreeResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeThreeResource.swift; sourceTree = "<group>"; };
 		F7C1E69125FEA70700B7F419 /* DIConfig.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = DIConfig.yaml; sourceTree = "<group>"; };
+		F7C699C92623025700D70684 /* Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		23B7759B2564424300D5CC4B /* __generated__ */ = {
 			isa = PBXGroup;
 			children = (
+				F7C699C92623025700D70684 /* Generated.swift */,
 				23B775962564421200D5CC4B /* FakeGenerated.swift */,
 			);
 			path = __generated__;
@@ -300,6 +303,7 @@
 				23FF9EDD25643C3900266ABE /* ContentView.swift in Sources */,
 				23FF9F1725643FBF00266ABE /* DIUsage.swift in Sources */,
 				23FF9F0825643CB400266ABE /* ScopeZeroResource.swift in Sources */,
+				F7C699CA2623025700D70684 /* Generated.swift in Sources */,
 				F7C1E67525F5C7FD00B7F419 /* ScopeOneResource.swift in Sources */,
 				23B775972564421200D5CC4B /* FakeGenerated.swift in Sources */,
 				23FF9EDB25643C3900266ABE /* DIDemoApp.swift in Sources */,
