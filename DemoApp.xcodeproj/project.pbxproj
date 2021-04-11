@@ -10,7 +10,7 @@
 		235FB5942569D032000B575A /* TimingNetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235FB5932569D032000B575A /* TimingNetworkMonitor.swift */; };
 		23A1AA4D25682607009E847C /* NetworkClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A1A95425665457009E847C /* NetworkClient.framework */; };
 		23A1AA4E25682607009E847C /* NetworkClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23A1A95425665457009E847C /* NetworkClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		23B775972564421200D5CC4B /* Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B775962564421200D5CC4B /* Generated.swift */; };
+		23B775972564421200D5CC4B /* FakeGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B775962564421200D5CC4B /* FakeGenerated.swift */; };
 		23FF9EDB25643C3900266ABE /* DIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FF9EC825643C3800266ABE /* DIDemoApp.swift */; };
 		23FF9EDD25643C3900266ABE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FF9EC925643C3800266ABE /* ContentView.swift */; };
 		23FF9EDF25643C3900266ABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23FF9ECA25643C3800266ABE /* Assets.xcassets */; };
@@ -60,7 +60,7 @@
 		23A1A94F25665456009E847C /* NetworkClient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NetworkClient.xcodeproj; path = NetworkClient/NetworkClient.xcodeproj; sourceTree = "<group>"; };
 		23A1A9BD25668591009E847C /* DIDemoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DIDemoApp.entitlements; sourceTree = "<group>"; };
 		23A1AA5025682673009E847C /* DependencyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DependencyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23B775962564421200D5CC4B /* Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generated.swift; sourceTree = "<group>"; };
+		23B775962564421200D5CC4B /* FakeGenerated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeGenerated.swift; sourceTree = "<group>"; };
 		23FF9EC825643C3800266ABE /* DIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIDemoApp.swift; sourceTree = "<group>"; };
 		23FF9EC925643C3800266ABE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23FF9ECA25643C3800266ABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -108,7 +108,6 @@
 		23A1A9E12567794C009E847C /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				F7C1E69125FEA70700B7F419 /* DIConfig.yaml */,
 				23FF9ECA25643C3800266ABE /* Assets.xcassets */,
 				23A1A9BD25668591009E847C /* DIDemoApp.entitlements */,
 				23FF9ED225643C3900266ABE /* Info.plist */,
@@ -119,7 +118,7 @@
 		23B7759B2564424300D5CC4B /* __generated__ */ = {
 			isa = PBXGroup;
 			children = (
-				23B775962564421200D5CC4B /* Generated.swift */,
+				23B775962564421200D5CC4B /* FakeGenerated.swift */,
 			);
 			path = __generated__;
 			sourceTree = "<group>";
@@ -135,6 +134,7 @@
 		23FF9EC225643C3800266ABE = {
 			isa = PBXGroup;
 			children = (
+				F7C1E69125FEA70700B7F419 /* DIConfig.yaml */,
 				23FF9EC725643C3800266ABE /* App */,
 				23A1A9E12567794C009E847C /* Config */,
 				23A1A8C225663CED009E847C /* Libraries */,
@@ -301,7 +301,7 @@
 				23FF9F1725643FBF00266ABE /* DIUsage.swift in Sources */,
 				23FF9F0825643CB400266ABE /* ScopeZeroResource.swift in Sources */,
 				F7C1E67525F5C7FD00B7F419 /* ScopeOneResource.swift in Sources */,
-				23B775972564421200D5CC4B /* Generated.swift in Sources */,
+				23B775972564421200D5CC4B /* FakeGenerated.swift in Sources */,
 				23FF9EDB25643C3900266ABE /* DIDemoApp.swift in Sources */,
 				235FB5942569D032000B575A /* TimingNetworkMonitor.swift in Sources */,
 				F7C1E67425F5C7FD00B7F419 /* ScopeTwoResource.swift in Sources */,
