@@ -1,9 +1,9 @@
 modules:
   - name: DemoApp
     path: App
-    excluded:
-      - __generated__/FakeGenerated.swift
+    excludedFiles:
+        - __generated__/FakeGenerated.swift
   - name: NetworkClient
     path: Libraries/NetworkClient/NetworkClient
-    excluded:
-      - __generated__/FakeGenerated.swift
+    excludedFiles:
+        - __generated__/FakeGenerated.swift
